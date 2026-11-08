@@ -9,7 +9,7 @@ app.use(express.json());
 
 // HOME PAGE
 app.get("/", (req, res) => {
-    res.send("Welcome to Sai Rashmitha's Lab 3 REST API!");
+    res.send("Welcome to D.Mahesh's Lab 3 REST API!");
 });
 
 // GET all books with search, sorting, pagination and price filter
@@ -283,3 +283,4 @@ async function startServer() {
 }
 
 startServer();
+
